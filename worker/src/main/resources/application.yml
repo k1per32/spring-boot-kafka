@@ -1,0 +1,16 @@
+server:
+  port: 9090
+
+spring:
+  kafka:
+    bootstrap-servers: localhost:29092
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      password: myredis
+newsapi:
+  uri: https://newsapi.org/v2/everything
+  apiKey: 18d6d37ee3514046a4b1fc3962e6a78f
+  language: ru
+  pageSize: 25
